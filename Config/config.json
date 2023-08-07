@@ -1,9 +1,8 @@
 {
     "model_paths": {
-        "yolov8n-seg": "/Users/cole/PycharmProjects/kivyTutorial/ObjectDetectionApp/App/Models/yolov8n-seg.pt",
-        "onnx-od-l": "/Users/cole/PycharmProjects/kivyTutorial/ObjectDetectionApp/App/Models/yolov8l.onnx",
-        "onnx-od-n": "/Users/cole/PycharmProjects/kivyTutorial/ObjectDetectionApp/App/Models/yolov8n.onnx",
-        "onnx-seg-n": "/Users/cole/PycharmProjects/kivyTutorial/ObjectDetectionApp/App/Models/yolov8n-seg.onnx"
+        "onnx-od-l": ".../App/Models/yolov8l.onnx",
+        "onnx-od-n": "...//App/Models/yolov8n.onnx",
+        "onnx-seg-n": "..../App/Models/yolov8n-seg.onnx"
 
     },
     "camera_resolution": [640, 480],
