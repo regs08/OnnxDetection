@@ -5,10 +5,9 @@ from kivy.uix.togglebutton import ToggleButton
 from kivy.uix.button import Button
 from kivy.clock import Clock
 
-from ObjectDetectionApp1.App.ProcessImage.image_processor import ImageProcessor
-from ObjectDetectionApp1.App.ProcessImage.camera_canvas import CameraCanvas
-from ObjectDetectionApp1.App.ProcessPredictions.prediction_processor import PredictionProcessor
-from ObjectDetectionApp1.App.ProcessPredictions.onnx_model_instance import YOLOSeg
+from repo.App.ProcessImage.image_processor import ImageProcessor
+from repo.App.ProcessImage.camera_canvas import CameraCanvas
+from repo.App.ProcessPredictions.onnx_model_instance import YOLOSeg
 
 
 class ObjectDetection(BoxLayout):
