@@ -10,8 +10,8 @@ import cv2
 import numpy as np
 import onnxruntime
 
-from ObjectDetectionApp1.App.ProcessPredictions.pred_utils import xywh2xyxy, nms, sigmoid
-from ObjectDetectionApp1.App.ProcessPredictions.prediction_processor import PredictionProcessor
+from repo.App.ProcessPredictions.pred_utils import xywh2xyxy, nms, sigmoid
+from repo.App.ProcessPredictions.prediction_processor import PredictionProcessor
 
 class YOLOSeg:
 
